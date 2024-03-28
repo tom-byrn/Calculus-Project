@@ -1,0 +1,132 @@
+body{
+  margin: 3%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 95vh;
+  width: 85vw;
+  background-color: #81add9;
+}
+
+#container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px
+}
+
+.display{
+  font-family: Cambria, Arial, Helvetica, sans-serif;
+  position: top;
+  width: 1000px;
+  padding: 5px;
+  align-items: left;
+  text-align: left;
+  border-radius: 15px;
+  border: none;
+  font-size: 3rem;
+  background-color: #c2e0ff;
+  margin: 10px;
+  margin-bottom: 10px;
+  
+}
+
+
+.form{
+  font-family: Cambria, Arial, Helvetica, sans-serif;
+  display: row;
+  display: flex;
+  gap: 5px;
+  justify-content: left;
+  align-items: center;
+  width: 1000px;
+  padding: 5px;
+  align-items: left;
+  text-align: left;
+  border-radius: 15px;
+  border: none;
+  font-size: 3rem;
+  background-color: #c2e0ff;
+  margin: 10px auto;
+  margin-bottom: 10px;
+  align-self: left;
+}
+
+.form input[type="number"] {
+  font-family: Cambria, Arial, Helvetica, sans-serif;
+  width: 80px;
+  height: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.form input[type="submit"] {
+  font-family: Cambria, Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+  width: 80px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  color: black;
+  background: white;
+  cursor: pointer;
+}
+
+.form input[type="submit"]:hover {
+  font-family: Cambria, Arial, Helvetica, sans-serif;
+  width: 80px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  color: white;
+  background: #7d0eb9;
+  cursor: pointer;
+}
+
+.form input[type="submit"]:active {
+  background: #e561ff66;
+}
+
+#image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.centre {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+
+.btn {
+  font-family: Cambria, Arial, Helvetica, sans-serif;
+  width: 500px;
+  font-size: 1.2rem;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  color: black;
+  background: white;
+  cursor: pointer;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 640px;
+}
+
+.btn:hover{
+  color: white;
+  background: #7d0eb9;
+  cursor: pointer;
+}
+
+.btn:active{
+  background-color: #e561ff66;
+}
