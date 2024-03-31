@@ -3,7 +3,7 @@ I then found that I could calculate the integral with SymPy and display the grap
 
 
 I developed a two demos using only Python to better understand how to utilise Matplotlib & SymPy.
-[Within the demo folder]
+[Within the demos folder]
 
 
 I then drew up a flowchart on how the app would work, and then went onto developing this concept into a full web app using Flask.
