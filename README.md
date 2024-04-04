@@ -19,5 +19,4 @@ Then the function with its integral, differential, and a graph created with Matp
 I then added a html form to change the boundaries of the graph, which then shows that specific area of the function in the graph image and gives the user the area under that area of the function. 
 I then finally added buttons to download the graph image and return back to the calculator.
 
-There are still some small bugs such as having an internal server error occur when unusable inputs are given. 
-I aim to fix this and add scientific more function to the calculator such as sin functions, logs, etc. in the future.
+I hope to add more function to the calculator (e.g. sine, cosine, etc.), improve the styling, and add more graph functionality in the future.
