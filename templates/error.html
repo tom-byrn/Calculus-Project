@@ -15,8 +15,17 @@
 
   <!-- Dislpays -->
   <div id="display-container">
-    <div class="display" id ="display" contenteditable="false">Error</div>
+    <div class="display" id ="display" contenteditable="false">
+      Math Error: Please Try Again
+    </div>
+    <button class="btn" onclick="returnToCalc()"> Back to Calculator</button>
 
+    <script>
+      function returnToCalc() {
+        console.log("Returning to '/' ");
+        window.location.href="/";
+      }
+      </script>
 
 </body>
 
