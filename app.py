@@ -164,10 +164,20 @@ def define_graph():
 
 def math_error():
     print("MATH ERROR")
-    return redirect(url_for("math_error_page"), code=307) #TODO CHANGE TO MATH ERROR PAGE IF POSSIBLE
+    return redirect(url_for("math_error_page"), code=307)
 
 @app.route("/error")
 def math_error_page():
+    return render_template("error.html")
+
+
+#INTERNAL ERROR = "MATH ERROR"
+@app.errorhandler(500)
+def server_error500(error):
+    return render_template("error.html")
+
+@app.errorhandler(405)
+def server_error405(error):
     return render_template("error.html")
 
 
