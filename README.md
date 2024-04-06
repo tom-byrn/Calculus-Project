@@ -1,3 +1,5 @@
+This is the first real project I've made to improve my coding. To use, just run the app.py file.
+
 My idea was to develop an integral calculus web app, as I was learning it in school and found the crossover between maths & physics to be really interesting. The idea was for the user to input a function with upper and lower boundaries, and then the app would return a graph of the function with the upper and lower boundaries defined, alongside a calculation of the boundary area.
 I then found that I could calculate the integral with SymPy and display the graph using Matplotlib in Python.
 
